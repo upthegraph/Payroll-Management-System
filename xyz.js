@@ -185,3 +185,4 @@ res.writeHead(200,
 const download = Buffer.from(data.toString('utf-8'), 'base64');
 res.end(download);
 });
+})
